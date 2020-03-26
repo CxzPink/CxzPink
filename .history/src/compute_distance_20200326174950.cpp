@@ -3,6 +3,7 @@
 #include "../inc/cxz_vector3.h"
 using namespace cxz;
 
+
 double cxz::compute_distance_triangle_point(const double (&triangle_coord)[9],const double (&point_coord)[3])
 {
     MyVector3 p[4];

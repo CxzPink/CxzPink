@@ -2,6 +2,12 @@
 #include <math.h>
 #include "../inc/cxz_vector3.h"
 using namespace cxz;
+MyVector3 operator+(const MyVector3 &v1, const MyVector3 &v2);
+MyVector3 operator-(const MyVector3 &v1, const MyVector3 &v2);
+MyVector3 operator^(const MyVector3 &v1, const MyVector3 &v2);
+double operator*(const MyVector3 &v1, const MyVector3 &v2);
+MyVector3 operator*(double &k, const MyVector3 &v);
+bool operator==(const MyVector3 &v1, const MyVector3 &v2);
 
 double cxz::compute_distance_triangle_point(const double (&triangle_coord)[9],const double (&point_coord)[3])
 {

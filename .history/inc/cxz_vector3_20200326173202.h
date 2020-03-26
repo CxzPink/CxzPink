@@ -10,12 +10,5 @@ namespace cxz{
     double area(const MyVector3 &p_0,const MyVector3 &p_1,const MyVector3 &p_2);
     double length(const MyVector3 &v);
     MyVector3 unitize(const MyVector3 &v);
-    
-    MyVector3 operator+(const MyVector3 &v1, const MyVector3 &v2);
-    MyVector3 operator-(const MyVector3 &v1, const MyVector3 &v2);
-    MyVector3 operator^(const MyVector3 &v1, const MyVector3 &v2);
-    double operator*(const MyVector3 &v1, const MyVector3 &v2);
-    MyVector3 operator*(double &k, const MyVector3 &v);
-bool operator==(const MyVector3 &v1, const MyVector3 &v2);
 }
 #endif

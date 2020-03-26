@@ -1,5 +1,5 @@
 #include "../inc/cxz_vector3.h"
-cxz::MyVector3 cxz::operator+(const cxz::MyVector3 &v1, const cxz::MyVector3 &v2)
+cxz::MyVector3 operator+(const cxz::MyVector3 &v1, const cxz::MyVector3 &v2)
 {
     cxz::MyVector3 v3;
     v3.coord[0] = v1.coord[0] + v2.coord[0];
@@ -8,7 +8,7 @@ cxz::MyVector3 cxz::operator+(const cxz::MyVector3 &v1, const cxz::MyVector3 &v2
     return v3;
 }
 
-cxz::MyVector3 cxz::operator-(const cxz::MyVector3 &v1, const cxz::MyVector3 &v2)
+cxz::MyVector3 operator-(const cxz::MyVector3 &v1, const cxz::MyVector3 &v2)
 {
     cxz::MyVector3 v3;
     v3.coord[0] = v1.coord[0] - v2.coord[0];
@@ -17,7 +17,7 @@ cxz::MyVector3 cxz::operator-(const cxz::MyVector3 &v1, const cxz::MyVector3 &v2
     return v3;
 }
 
-cxz::MyVector3 cxz::operator^(const cxz::MyVector3 &v1, const cxz::MyVector3 &v2)
+cxz::MyVector3 operator^(const cxz::MyVector3 &v1, const cxz::MyVector3 &v2)
 {
     cxz::MyVector3 v3;
     v3.coord[0] = v1.coord[1] * v2.coord[2] - v1.coord[2] * v2.coord[1];
@@ -26,12 +26,12 @@ cxz::MyVector3 cxz::operator^(const cxz::MyVector3 &v1, const cxz::MyVector3 &v2
     return v3;
 }
 
-double cxz::operator*(const cxz::MyVector3 &v1, const cxz::MyVector3 &v2)
+double operator*(const cxz::MyVector3 &v1, const cxz::MyVector3 &v2)
 {
     return (v1.coord[0] * v2.coord[0] + v1.coord[1] * v2.coord[1] + v1.coord[2] * v2.coord[2]);
 }
 
-cxz::MyVector3 cxz::operator*(double &k, const cxz::MyVector3 &v)
+cxz::MyVector3 operator*(double &k, const cxz::MyVector3 &v)
 {
     cxz::MyVector3 temp;
     temp.coord[0] = v.coord[0] * k;
@@ -40,7 +40,7 @@ cxz::MyVector3 cxz::operator*(double &k, const cxz::MyVector3 &v)
     return temp;
 }
 
-bool cxz::operator==(const cxz::MyVector3 &v1, const cxz::MyVector3 &v2)
+bool operator==(const cxz::MyVector3 &v1, const cxz::MyVector3 &v2)
 {
     if (v1.coord[0] == v2.coord[0] && v1.coord[1] == v2.coord[1] && v1.coord[2] == v2.coord[2])
         return 1;
