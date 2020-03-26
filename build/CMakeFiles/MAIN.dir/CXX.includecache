@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/lonovo/Desktop/CAD/3.17/inc/cxz_vector3.h
+
+/mnt/c/Users/lonovo/Desktop/CAD/3.17/src/compute_distance.cpp
+cstddef
+-
+math.h
+-
+../inc/cxz_vector3.h
+/mnt/c/Users/lonovo/Desktop/CAD/3.17/inc/cxz_vector3.h
+
+/mnt/c/Users/lonovo/Desktop/CAD/3.17/src/main.cpp
+iostream
+-
+../inc/cxz_vector3.h
+/mnt/c/Users/lonovo/Desktop/CAD/3.17/inc/cxz_vector3.h
+
+/mnt/c/Users/lonovo/Desktop/CAD/3.17/src/operator.cpp
+../inc/cxz_vector3.h
+/mnt/c/Users/lonovo/Desktop/CAD/3.17/inc/cxz_vector3.h
+

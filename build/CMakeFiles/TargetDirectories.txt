@@ -1,0 +1,3 @@
+/mnt/c/Users/lonovo/Desktop/CAD/3.17/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/lonovo/Desktop/CAD/3.17/build/CMakeFiles/MAIN.dir
+/mnt/c/Users/lonovo/Desktop/CAD/3.17/build/CMakeFiles/edit_cache.dir
