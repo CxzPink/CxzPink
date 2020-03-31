@@ -7,6 +7,12 @@
 #IncludeRegexTransform: 
 
 /mnt/c/Users/lonovo/Desktop/CAD/3.17/inc/cxz_vector3.h
+vector
+-
+cstddef
+-
+string
+-
 
 /mnt/c/Users/lonovo/Desktop/CAD/3.17/src/compute_distance.cpp
 cstddef
@@ -18,6 +24,18 @@ math.h
 
 /mnt/c/Users/lonovo/Desktop/CAD/3.17/src/main.cpp
 iostream
+-
+../inc/cxz_vector3.h
+/mnt/c/Users/lonovo/Desktop/CAD/3.17/inc/cxz_vector3.h
+
+/mnt/c/Users/lonovo/Desktop/CAD/3.17/src/obj_store.cpp
+fstream
+-
+iostream
+-
+sstream
+-
+cfloat
 -
 ../inc/cxz_vector3.h
 /mnt/c/Users/lonovo/Desktop/CAD/3.17/inc/cxz_vector3.h

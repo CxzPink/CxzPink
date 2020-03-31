@@ -7,6 +7,9 @@ CMakeFiles/MAIN.dir/src/compute_distance.cpp.o: ../src/compute_distance.cpp
 CMakeFiles/MAIN.dir/src/main.cpp.o: ../inc/cxz_vector3.h
 CMakeFiles/MAIN.dir/src/main.cpp.o: ../src/main.cpp
 
+CMakeFiles/MAIN.dir/src/obj_store.cpp.o: ../inc/cxz_vector3.h
+CMakeFiles/MAIN.dir/src/obj_store.cpp.o: ../src/obj_store.cpp
+
 CMakeFiles/MAIN.dir/src/operator.cpp.o: ../inc/cxz_vector3.h
 CMakeFiles/MAIN.dir/src/operator.cpp.o: ../src/operator.cpp
 

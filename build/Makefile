@@ -177,6 +177,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/MAIN.dir/build.make CMakeFiles/MAIN.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/obj_store.o: src/obj_store.cpp.o
+
+.PHONY : src/obj_store.o
+
+# target to build an object file
+src/obj_store.cpp.o:
+	$(MAKE) -f CMakeFiles/MAIN.dir/build.make CMakeFiles/MAIN.dir/src/obj_store.cpp.o
+.PHONY : src/obj_store.cpp.o
+
+src/obj_store.i: src/obj_store.cpp.i
+
+.PHONY : src/obj_store.i
+
+# target to preprocess a source file
+src/obj_store.cpp.i:
+	$(MAKE) -f CMakeFiles/MAIN.dir/build.make CMakeFiles/MAIN.dir/src/obj_store.cpp.i
+.PHONY : src/obj_store.cpp.i
+
+src/obj_store.s: src/obj_store.cpp.s
+
+.PHONY : src/obj_store.s
+
+# target to generate assembly for a file
+src/obj_store.cpp.s:
+	$(MAKE) -f CMakeFiles/MAIN.dir/build.make CMakeFiles/MAIN.dir/src/obj_store.cpp.s
+.PHONY : src/obj_store.cpp.s
+
 src/operator.o: src/operator.cpp.o
 
 .PHONY : src/operator.o
@@ -219,6 +246,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/obj_store.o"
+	@echo "... src/obj_store.i"
+	@echo "... src/obj_store.s"
 	@echo "... src/operator.o"
 	@echo "... src/operator.i"
 	@echo "... src/operator.s"
