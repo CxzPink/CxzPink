@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/lonovo/Desktop/CAD/3.17/inc/cxz_vector3.h
+../inc/cxz.h
+vector
+-
+cstddef
+-
+string
+-
+
+/mnt/c/Users/lonovo/Desktop/CAD/3.17/inc/cxz.h
 vector
 -
 cstddef
@@ -19,16 +27,22 @@ cstddef
 -
 math.h
 -
-../inc/cxz_vector3.h
-/mnt/c/Users/lonovo/Desktop/CAD/3.17/inc/cxz_vector3.h
+../inc/cxz.h
+/mnt/c/Users/lonovo/Desktop/CAD/3.17/inc/cxz.h
+
+/mnt/c/Users/lonovo/Desktop/CAD/3.17/src/heap.cpp
+../inc/cxz.h
+-
+iostream
+-
 
 /mnt/c/Users/lonovo/Desktop/CAD/3.17/src/main.cpp
 iostream
 -
-../inc/cxz_vector3.h
-/mnt/c/Users/lonovo/Desktop/CAD/3.17/inc/cxz_vector3.h
+../inc/cxz.h
+/mnt/c/Users/lonovo/Desktop/CAD/3.17/inc/cxz.h
 
-/mnt/c/Users/lonovo/Desktop/CAD/3.17/src/obj_store.cpp
+/mnt/c/Users/lonovo/Desktop/CAD/3.17/src/mesh.cpp
 fstream
 -
 iostream
@@ -37,10 +51,10 @@ sstream
 -
 cfloat
 -
-../inc/cxz_vector3.h
-/mnt/c/Users/lonovo/Desktop/CAD/3.17/inc/cxz_vector3.h
+../inc/cxz.h
+/mnt/c/Users/lonovo/Desktop/CAD/3.17/inc/cxz.h
 
 /mnt/c/Users/lonovo/Desktop/CAD/3.17/src/operator.cpp
-../inc/cxz_vector3.h
-/mnt/c/Users/lonovo/Desktop/CAD/3.17/inc/cxz_vector3.h
+../inc/cxz.h
+/mnt/c/Users/lonovo/Desktop/CAD/3.17/inc/cxz.h
 

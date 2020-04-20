@@ -150,6 +150,33 @@ src/compute_distance.cpp.s:
 	$(MAKE) -f CMakeFiles/MAIN.dir/build.make CMakeFiles/MAIN.dir/src/compute_distance.cpp.s
 .PHONY : src/compute_distance.cpp.s
 
+src/heap.o: src/heap.cpp.o
+
+.PHONY : src/heap.o
+
+# target to build an object file
+src/heap.cpp.o:
+	$(MAKE) -f CMakeFiles/MAIN.dir/build.make CMakeFiles/MAIN.dir/src/heap.cpp.o
+.PHONY : src/heap.cpp.o
+
+src/heap.i: src/heap.cpp.i
+
+.PHONY : src/heap.i
+
+# target to preprocess a source file
+src/heap.cpp.i:
+	$(MAKE) -f CMakeFiles/MAIN.dir/build.make CMakeFiles/MAIN.dir/src/heap.cpp.i
+.PHONY : src/heap.cpp.i
+
+src/heap.s: src/heap.cpp.s
+
+.PHONY : src/heap.s
+
+# target to generate assembly for a file
+src/heap.cpp.s:
+	$(MAKE) -f CMakeFiles/MAIN.dir/build.make CMakeFiles/MAIN.dir/src/heap.cpp.s
+.PHONY : src/heap.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -177,32 +204,32 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/MAIN.dir/build.make CMakeFiles/MAIN.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/obj_store.o: src/obj_store.cpp.o
+src/mesh.o: src/mesh.cpp.o
 
-.PHONY : src/obj_store.o
+.PHONY : src/mesh.o
 
 # target to build an object file
-src/obj_store.cpp.o:
-	$(MAKE) -f CMakeFiles/MAIN.dir/build.make CMakeFiles/MAIN.dir/src/obj_store.cpp.o
-.PHONY : src/obj_store.cpp.o
+src/mesh.cpp.o:
+	$(MAKE) -f CMakeFiles/MAIN.dir/build.make CMakeFiles/MAIN.dir/src/mesh.cpp.o
+.PHONY : src/mesh.cpp.o
 
-src/obj_store.i: src/obj_store.cpp.i
+src/mesh.i: src/mesh.cpp.i
 
-.PHONY : src/obj_store.i
+.PHONY : src/mesh.i
 
 # target to preprocess a source file
-src/obj_store.cpp.i:
-	$(MAKE) -f CMakeFiles/MAIN.dir/build.make CMakeFiles/MAIN.dir/src/obj_store.cpp.i
-.PHONY : src/obj_store.cpp.i
+src/mesh.cpp.i:
+	$(MAKE) -f CMakeFiles/MAIN.dir/build.make CMakeFiles/MAIN.dir/src/mesh.cpp.i
+.PHONY : src/mesh.cpp.i
 
-src/obj_store.s: src/obj_store.cpp.s
+src/mesh.s: src/mesh.cpp.s
 
-.PHONY : src/obj_store.s
+.PHONY : src/mesh.s
 
 # target to generate assembly for a file
-src/obj_store.cpp.s:
-	$(MAKE) -f CMakeFiles/MAIN.dir/build.make CMakeFiles/MAIN.dir/src/obj_store.cpp.s
-.PHONY : src/obj_store.cpp.s
+src/mesh.cpp.s:
+	$(MAKE) -f CMakeFiles/MAIN.dir/build.make CMakeFiles/MAIN.dir/src/mesh.cpp.s
+.PHONY : src/mesh.cpp.s
 
 src/operator.o: src/operator.cpp.o
 
@@ -243,12 +270,15 @@ help:
 	@echo "... src/compute_distance.o"
 	@echo "... src/compute_distance.i"
 	@echo "... src/compute_distance.s"
+	@echo "... src/heap.o"
+	@echo "... src/heap.i"
+	@echo "... src/heap.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/obj_store.o"
-	@echo "... src/obj_store.i"
-	@echo "... src/obj_store.s"
+	@echo "... src/mesh.o"
+	@echo "... src/mesh.i"
+	@echo "... src/mesh.s"
 	@echo "... src/operator.o"
 	@echo "... src/operator.i"
 	@echo "... src/operator.s"

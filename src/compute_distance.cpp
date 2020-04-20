@@ -1,6 +1,6 @@
 #include <cstddef>
 #include <math.h>
-#include "../inc/cxz_vector3.h"
+#include "../inc/cxz.h"
 using namespace cxz;
 
 double cxz::compute_distance_triangle_point(const double (&triangle_coord)[9],const double (&point_coord)[3])

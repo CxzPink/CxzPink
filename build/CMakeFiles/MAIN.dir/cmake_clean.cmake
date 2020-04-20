@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MAIN.dir/src/compute_distance.cpp.o"
+  "CMakeFiles/MAIN.dir/src/heap.cpp.o"
   "CMakeFiles/MAIN.dir/src/main.cpp.o"
-  "CMakeFiles/MAIN.dir/src/obj_store.cpp.o"
+  "CMakeFiles/MAIN.dir/src/mesh.cpp.o"
   "CMakeFiles/MAIN.dir/src/operator.cpp.o"
   "../bin/MAIN.pdb"
   "../bin/MAIN"

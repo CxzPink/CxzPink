@@ -1,4 +1,4 @@
-#include "../inc/cxz_vector3.h"
+#include "../inc/cxz.h"
 cxz::MyVector3 cxz::operator+(const cxz::MyVector3 &v1, const cxz::MyVector3 &v2)
 {
     cxz::MyVector3 v3;
